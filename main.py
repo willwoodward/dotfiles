@@ -31,7 +31,8 @@ def setup_symlinks(force=False):
         ".inputrc": "bash/.inputrc",
         ".profile": "bash/.profile",
         ".bash_aliases": "bash/.bash_aliases",
-        ".bash_logout": "bash/.bash_logout"
+        ".bash_logout": "bash/.bash_logout",
+        ".gitconfig": "git/.gitconfig"
     }
 
     if force:
