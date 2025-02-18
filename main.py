@@ -22,16 +22,16 @@ def del_file(dst):
 
 def setup_symlinks(force=False):
     """Set up symlinks for common config files."""
-    scripts_dir = os.path.dirname(os.path.abspath(__file__))
-    dotfiles_dir = os.path.dirname(scripts_dir)
+    dotfiles_dir = os.path.dirname(os.path.abspath(__file__))
 
     # List of config files to symlink
+    # symlink location: source location
     config_files = {
-        ".bashrc": ".bashrc",
-        ".inputrc": ".inputrc",
-        ".profile": ".profile",
-        ".bash_aliases": ".bash_aliases",
-        ".bash_logout": ".bash_logout"
+        ".bashrc": "bash/.bashrc",
+        ".inputrc": "bash/.inputrc",
+        ".profile": "bash/.profile",
+        ".bash_aliases": "bash/.bash_aliases",
+        ".bash_logout": "bash/.bash_logout"
     }
 
     if force:
