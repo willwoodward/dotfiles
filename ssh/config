@@ -1,0 +1,34 @@
+Host master
+    HostName cluster000
+    User pi
+    IdentityFile ~/.ssh/id_rsa
+
+Host worker1
+    HostName cluster001
+    User pi
+    IdentityFile ~/.ssh/id_rsa
+
+Host worker2
+    HostName cluster002
+    User pi
+    IdentityFile ~/.ssh/id_rsa
+
+Host worker3
+    HostName cluster003
+    User pi
+    IdentityFile ~/.ssh/id_rsa
+
+Host worker4
+    HostName cluster004
+    User pi
+    IdentityFile ~/.ssh/id_rsa
+
+Host worker5
+    HostName cluster005
+    User pi
+    IdentityFile ~/.ssh/id_rsa
+
+Host worker6
+    HostName cluster006
+    User pi
+    IdentityFile ~/.ssh/id_rsa

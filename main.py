@@ -32,7 +32,9 @@ def setup_symlinks(force=False):
         ".profile": "bash/.profile",
         ".bash_aliases": "bash/.bash_aliases",
         ".bash_logout": "bash/.bash_logout",
-        ".gitconfig": "git/.gitconfig"
+        ".gitconfig": "git/.gitconfig",
+        ".tmux.conf": "tmux/.tmux.conf",
+        ".ssh/config": "ssh/config",
     }
 
     if force:
