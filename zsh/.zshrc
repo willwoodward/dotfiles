@@ -120,3 +120,11 @@ clear-screen-widget() {
 zle -N clear-screen-widget
 
 bindkey '^[l' clear-screen-widget
+
+. "$HOME/.local/bin/env"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # Activate NVM
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # Optional: enables `nvm` tab-completion
+
+export PATH="$HOME/.local/bin:$PATH"

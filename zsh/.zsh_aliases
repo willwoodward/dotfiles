@@ -1,2 +1,5 @@
 alias python='python3'
-
+alias dot-install='~/dotfiles/install.sh'
+alias dot-setup='~/dotfiles/setup.sh'
+alias dot-i='dot-install'
+alias dot-s='dot-setup'
