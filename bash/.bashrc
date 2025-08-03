@@ -117,10 +117,10 @@ if ! shopt -oq posix; then
 fi
 
 # Activate python virtual environment
-if [ -d "$HOME/venv" ]; then
-  export VIRTUAL_ENV_DISABLE_PROMPT=1
-  source $HOME/venv/bin/activate
-fi
+# if [ -d "$HOME/venv" ]; then
+#  export VIRTUAL_ENV_DISABLE_PROMPT=1
+#  source $HOME/venv/bin/activate
+#fi
 
 # Run tmux
 # if [ -z "$TMUX" ]; then
