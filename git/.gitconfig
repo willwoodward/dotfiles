@@ -1,5 +1,10 @@
 [user]
 	name = willwoodward
 	email = will@woodwardweb.com
+	signingkey = /home/will/.ssh/id_rsa.pub
 [init]
 	defaultBranch = main
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
