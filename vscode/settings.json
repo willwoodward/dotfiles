@@ -1,0 +1,39 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "git.path": "/usr/bin/git",
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "jupyter.askForKernelRestart": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "woodwork": false,
+        "python": false,
+        "latex": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.lineNumbers": "relative",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-d>"],
+            "after": ["<C-d>", "z", "z"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-u>"],
+            "after": ["<C-u>", "z", "z"]
+        }
+    ],
+}
