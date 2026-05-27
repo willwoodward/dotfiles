@@ -28,10 +28,12 @@
         {
             "before": ["<C-d>"],
             "after": ["<C-d>", "z", "z"]
-        },
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["<C-u>"],
             "after": ["<C-u>", "z", "z"]
         }
-    ],
+    ]
 }
